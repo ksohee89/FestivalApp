@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "874472347885",
+    "project_id": "gproject-c4b64",
+    "storage_bucket": "gproject-c4b64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874472347885:android:fe7a236bf510e58d2394e4",
+        "android_client_info": {
+          "package_name": "com.sample.festival_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874472347885-q5rejkqsd4uhpicq5rftgjkgc17j3vni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdaSOzFZNCFU9TkwAcUQgn_iCDeFUWcjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874472347885-q5rejkqsd4uhpicq5rftgjkgc17j3vni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/map2"
+        android:layout_width="match_parent"
+        android:layout_height="530dp"
+        android:src="@drawable/gangwondo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <TextView
+        android:id="@+id/gangwondo_text14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="236dp"
+        android:layout_marginTop="384dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="영월군"
+        android:textColor="#515151"
+
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@+id/map2"
+        app:layout_constraintTop_toTopOf="@+id/map2"></TextView>
+
+    <TextView
+        android:id="@+id/gangwondo_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="168dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="철원군"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@+id/map2"
+        app:layout_constraintTop_toTopOf="@+id/map2"></TextView>
+
+    <TextView
+        android:id="@+id/gangwondo_text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="124dp"
+        android:layout_marginTop="168dp"
+        android:fontFamily="@font/gangwondofont"
+        android:textColor="#515151"
+        android:text="양구군"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@+id/map2"
+        app:layout_constraintTop_toTopOf="@+id/map2"></TextView>
+
+    <TextView
+        android:id="@+id/gangwondo_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="192dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="화천군"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@+id/map2"
+        app:layout_constraintTop_toTopOf="@+id/map2"></TextView>
+
+    <ImageView
+        android:id="@+id/gangwondo_pin2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="176dp"
+        app:layout_constraintLeft_toLeftOf="@id/map2"
+        app:layout_constraintTop_toTopOf="@id/map2"></ImageView>
+
+    <ImageView
+        android:id="@+id/gangwondo_pin18"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="344dp"
+        android:layout_marginTop="336dp"
+        app:layout_constraintLeft_toLeftOf="@id/map2"
+        app:layout_constraintTop_toTopOf="@id/map2"></ImageView>
+
+    <ImageView
+        android:id="@+id/gangwondo_pin6"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="224dp"
+        app:layout_constraintLeft_toLeftOf="@id/map2"
+        app:layout_constraintTop_toTopOf="@id/map2"></ImageView>
+
+    <ImageView
+        android:id="@+id/gangwondo_pin17"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="336dp"
+        android:layout_marginTop="364dp"
+        app:layout_constraintLeft_toLeftOf="@id/map2"
+        app:layout_constraintTop_toTopOf="@id/map2"></ImageView>
+
+    <ImageView
+        android:id="@+id/gangwondo_pin9"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="284dp"
+        android:layout_marginTop="208dp"
+        app:layout_constraintLeft_toLeftOf="@id/map2"
+        app:layout_constraintTop_toTopOf="@id/map2"></ImageView>
+
+    <ImageView
+        android:id="@+id/gangwondo_pin16"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="348dp"
+        android:layout_marginTop="296dp"
+        app:layout_constraintLeft_toLeftOf="@id/map2"
+        app:layout_constraintTop_toTopOf="@id/map2"></ImageView>
+
+    <TextView
+        android:id="@+id/gangwondo_text15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="276dp"
+        android:layout_marginTop="348dp"
+        android:fontFamily="@font/gangwondofont"
+        android:textColor="#515151"
+        android:text="정선군"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@+id/map2"
+        app:layout_constraintTop_toTopOf="@+id/map2"></TextView>
+
+    <ImageView
+        android:id="@+id/gangwondo_pin3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="124dp"
+        android:layout_marginTop="152dp"
+        app:layout_constraintLeft_toLeftOf="@id/map2"
+        app:layout_constraintTop_toTopOf="@id/map2"></ImageView>
+
+    <ImageView
+        android:id="@+id/gangwondo_pin14"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="216dp"
+        android:layout_marginTop="356dp"
+        app:layout_constraintLeft_toLeftOf="@id/map2"
+        app:layout_constraintTop_toTopOf="@id/map2"></ImageView>
+
+    <TextView
+        android:id="@+id/gangwondo_text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="152dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="고성군"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@+id/map2"
+        app:layout_constraintTop_toTopOf="@+id/map2"></TextView>
+
+    <ImageView
+        android:id="@+id/gangwondo_pin15"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="296dp"
+        android:layout_marginTop="324dp"
+        app:layout_constraintLeft_toLeftOf="@id/map2"
+        app:layout_constraintTop_toTopOf="@id/map2"></ImageView>
+
+    <TextView
+        android:id="@+id/gangwondo_text12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="304dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="평창군"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@+id/map2"
+        app:layout_constraintTop_toTopOf="@+id/map2"></TextView>
+
+    <TextView
+        android:id="@+id/gangwondo_text17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="328dp"
+        android:layout_marginTop="384dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="태백시"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@+id/map2"
+        app:layout_constraintTop_toTopOf="@+id/map2"></TextView>
+
+    <TextView
+        android:id="@+id/gangwondo_text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="240dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="춘천시"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@+id/map2"
+        app:layout_constraintTop_toTopOf="@+id/map2"></TextView>
+
+    <TextView
+        android:id="@+id/gangwondo_text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="204dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="인제군"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/map2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/map2"></TextView>
+
+    <TextView
+        android:id="@+id/gangwondo_text16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="336dp"
+        android:layout_marginTop="324dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="동해시"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@+id/map2"
+        app:layout_constraintTop_toTopOf="@+id/map2"></TextView>
+
+    <ImageView
+        android:id="@+id/gangwondo_pin13"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="316dp"
+        android:layout_marginTop="260dp"
+        app:layout_constraintLeft_toLeftOf="@id/map2"
+        app:layout_constraintTop_toTopOf="@id/map2"></ImageView>
+
+    <ImageView
+        android:id="@+id/gangwondo_pin12"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="248dp"
+        android:layout_marginTop="280dp"
+        app:layout_constraintLeft_toLeftOf="@id/map2"
+        app:layout_constraintTop_toTopOf="@id/map2"></ImageView>
+
+    <TextView
+        android:id="@+id/gangwondo_text10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="124dp"
+        android:layout_marginTop="356dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="원주시"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@+id/map2"
+        app:layout_constraintTop_toTopOf="@+id/map2"></TextView>
+
+    <ImageView
+        android:id="@+id/gangwondo_pin11"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="172dp"
+        android:layout_marginTop="304dp"
+        app:layout_constraintLeft_toLeftOf="@id/map2"
+        app:layout_constraintTop_toTopOf="@id/map2"></ImageView>
+
+    <TextView
+        android:id="@+id/gangwondo_text11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="156dp"
+        android:layout_marginTop="328dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="횡성군"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@+id/map2"
+        app:layout_constraintTop_toTopOf="@+id/map2"></TextView>
+
+    <ImageView
+        android:id="@+id/gangwondo_pin7"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="268dp"
+        android:layout_marginTop="172dp"
+        app:layout_constraintLeft_toLeftOf="@id/map2"
+        app:layout_constraintTop_toTopOf="@id/map2"></ImageView>
+
+    <TextView
+        android:id="@+id/gangwondo_text8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="124dp"
+        android:layout_marginTop="276dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="홍천군"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@+id/map2"
+        app:layout_constraintTop_toTopOf="@+id/map2"></TextView>
+
+    <ImageView
+        android:id="@+id/gangwondo_pin4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="216dp"
+        android:layout_marginTop="180dp"
+        app:layout_constraintLeft_toLeftOf="@id/map2"
+        app:layout_constraintTop_toTopOf="@id/map2"></ImageView>
+
+    <ImageView
+        android:id="@+id/gangwondo_pin5"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="136dp"
+        app:layout_constraintLeft_toLeftOf="@id/map2"
+        app:layout_constraintTop_toTopOf="@id/map2"></ImageView>
+
+    <TextView
+        android:id="@+id/gangwondo_text9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="256dp"
+        android:layout_marginTop="228dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="양양군"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@+id/map2"
+        app:layout_constraintTop_toTopOf="@+id/map2"></TextView>
+
+    <TextView
+        android:id="@+id/gangwondo_text13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="304dp"
+        android:layout_marginTop="288dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="강릉시"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@+id/map2"
+        app:layout_constraintTop_toTopOf="@+id/map2"></TextView>
+
+    <TextView
+        android:id="@+id/gangwondo_text18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="364dp"
+        android:layout_marginTop="356dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="삼척시"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@+id/map2"
+        app:layout_constraintTop_toTopOf="@+id/map2"></TextView>
+
+    <ImageView
+        android:id="@+id/gangwondo_pin8"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="152dp"
+        android:layout_marginTop="252dp"
+        app:layout_constraintLeft_toLeftOf="@id/map2"
+        app:layout_constraintTop_toTopOf="@id/map2"></ImageView>
+
+    <ImageView
+        android:id="@+id/gangwondo_pin10"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="332dp"
+        app:layout_constraintLeft_toLeftOf="@id/map2"
+        app:layout_constraintTop_toTopOf="@id/map2"></ImageView>
+
+    <TextView
+        android:id="@+id/gangwondo_text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="248dp"
+        android:layout_marginTop="192dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="속초시"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@+id/map2"
+        app:layout_constraintTop_toTopOf="@+id/map2"></TextView>
+
+    <ImageView
+        android:id="@+id/gangwondo_pin1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="148dp"
+        app:layout_constraintLeft_toLeftOf="@id/map2"
+        app:layout_constraintTop_toTopOf="@id/map2"></ImageView>
+
+    <Button
+        android:id="@+id/gangwondo_map_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="@font/gangwondofont"
+        android:textColor="@color/white"
+        android:text="전체지도 보기"
+        app:layout_constraintStart_toStartOf="@+id/map2"
+        app:layout_constraintTop_toBottomOf="@+id/map2"></Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

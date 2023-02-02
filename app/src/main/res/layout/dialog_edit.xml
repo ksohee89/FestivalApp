@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/dialog"
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+        android:background="@color/yellow2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:id="@+id/menu_bar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/orange"
+            android:orientation="horizontal"
+            app:layout_constraintLeft_toLeftOf="@id/dialog"
+            app:layout_constraintTop_toTopOf="@id/dialog">
+
+            <ImageView
+                android:id="@+id/action_save"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="305dp"
+                android:padding="4dp"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="#ffffff"
+                android:src="@drawable/ic_baseline_save_alt_24"></ImageView>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edit_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="일정 타이틀"
+            android:padding="15dp"
+            android:textSize="17dp"
+            app:layout_constraintLeft_toLeftOf="@id/dialog"
+            app:layout_constraintTop_toBottomOf="@+id/menu_bar" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:layout_constraintLeft_toLeftOf="@id/dialog"
+            app:layout_constraintTop_toBottomOf="@id/edit_title"></View>
+
+        <EditText
+            android:id="@+id/edit_duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="기간(yyyy-mm-dd)"
+            android:padding="15dp"
+            android:textSize="17dp"
+            app:layout_constraintLeft_toLeftOf="@id/dialog"
+            app:layout_constraintTop_toBottomOf="@+id/edit_title" />
+
+        <View
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="3dp"
+            app:layout_constraintLeft_toLeftOf="@id/dialog"
+            app:layout_constraintTop_toBottomOf="@id/edit_duration"></View>
+
+
+        <EditText
+            android:id="@+id/edit_memo"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="64dp"
+            android:background="#9EFFFFFF"
+            android:gravity="top"
+            android:padding="15dp"
+            android:textSize="13dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="@+id/dialog"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/line2" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

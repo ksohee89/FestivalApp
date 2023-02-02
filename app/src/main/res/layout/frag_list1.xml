@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B8B8B8"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:fontFamily="@font/notosans2"
+                android:text="전체"
+                android:textColor="@color/black"
+                android:textSize="15dp"></TextView>
+
+            <TextView
+                android:id="@+id/list_theme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="75dp"
+                android:fontFamily="@font/notosans2"
+                android:text="축제 테마"
+                android:textColor="@color/gray2"
+                android:textSize="15dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/list_Month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:fontFamily="@font/notosans2"
+                android:text="이달의 축제"
+                android:textColor="@color/gray2"
+                android:textSize="15dp">
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Spinner
+        android:autofillHints="월별"
+        android:id="@+id/list_spinner"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="120dp"
+        android:entries="@array/menu"
+        android:layout_height="40dp"
+        ></Spinner>
+    <FrameLayout
+        android:id="@+id/list_frame2"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="15dp"
+        >
+
+    </FrameLayout>
+</LinearLayout>

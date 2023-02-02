@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#B8B8B8"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+            <TextView
+                android:id="@+id/all_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="전체"
+                android:textSize="15dp"
+                android:textColor="@color/gray2"
+                android:layout_marginLeft="65dp"
+                android:fontFamily="@font/notosans2">
+            </TextView>
+            <TextView
+                android:id="@+id/list_theme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="축제 테마"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="75dp"
+                android:fontFamily="@font/notosans2">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/list_Month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="이달의 축제"
+                android:textSize="15dp"
+                android:textColor="@color/gray2"
+                android:layout_marginLeft="60dp"
+                android:fontFamily="@font/notosans2">
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#B8B8B8"
+            >
+            <TextView
+                android:id="@+id/theme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="바다"
+                android:textSize="15dp"
+                android:textColor="@color/gray2"
+                android:layout_marginLeft="35dp"
+                android:fontFamily="@font/notosans2"></TextView>
+            <TextView
+                android:id="@+id/theme1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="꽃"
+                android:textSize="15dp"
+                android:textColor="@color/gray2"
+                android:layout_marginLeft="40dp"
+                android:fontFamily="@font/notosans2">
+
+            </TextView>
+            <TextView
+                android:id="@+id/theme2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="자연"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="40dp"
+                android:fontFamily="@font/notosans2">
+
+            </TextView>
+            <TextView
+                android:id="@+id/theme3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="액티비티"
+                android:textSize="15dp"
+                android:textColor="@color/gray2"
+                android:layout_marginLeft="40dp"
+                android:fontFamily="@font/notosans2">
+
+            </TextView>
+            <TextView
+                android:id="@+id/theme4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="문화예술"
+                android:textSize="15dp"
+                android:textColor="@color/gray2"
+                android:layout_marginLeft="40dp"
+                android:fontFamily="@font/notosans2">
+
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_theme_listview2"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        >
+    </ListView>
+</LinearLayout>

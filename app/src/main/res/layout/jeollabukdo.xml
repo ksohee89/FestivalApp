@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:id="@+id/map6"
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/jeollabukdo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <TextView
+        android:id="@+id/jeollabukdo_text14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="340dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="남원시"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map6"
+        app:layout_constraintTop_toTopOf="@id/map6"></TextView>
+
+    <TextView
+        android:id="@+id/jeollabukdo_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="184dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="군산시"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map6"
+        app:layout_constraintTop_toTopOf="@id/map6"></TextView>
+
+    <ImageView
+        android:id="@+id/jeollabukdo_pin9"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="244dp"
+        app:layout_constraintLeft_toLeftOf="@id/map6"
+        app:layout_constraintTop_toTopOf="@id/map6"></ImageView>
+
+    <ImageView
+        android:id="@+id/jeollabukdo_pin4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="272dp"
+        android:layout_marginTop="212dp"
+        app:layout_constraintLeft_toLeftOf="@id/map6"
+        app:layout_constraintTop_toTopOf="@id/map6"></ImageView>
+
+    <TextView
+        android:id="@+id/jeollabukdo_text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="168dp"
+        android:layout_marginTop="224dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="전주시"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map6"
+        app:layout_constraintTop_toTopOf="@id/map6"></TextView>
+
+    <ImageView
+        android:id="@+id/jeollabukdo_pin5"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="352dp"
+        android:layout_marginTop="180dp"
+        app:layout_constraintLeft_toLeftOf="@id/map6"
+        app:layout_constraintTop_toTopOf="@id/map6"></ImageView>
+
+    <ImageView
+        android:id="@+id/jeollabukdo_pin2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="156dp"
+        android:layout_marginTop="156dp"
+        app:layout_constraintLeft_toLeftOf="@id/map6"
+        app:layout_constraintTop_toTopOf="@id/map6"></ImageView>
+
+    <TextView
+        android:id="@+id/jeollabukdo_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="184dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="익산시"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map6"
+        app:layout_constraintTop_toTopOf="@id/map6"></TextView>
+
+    <TextView
+        android:id="@+id/jeollabukdo_text13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="168dp"
+        android:layout_marginTop="332dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="순창군"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map6"
+        app:layout_constraintTop_toTopOf="@id/map6"></TextView>
+
+    <ImageView
+        android:id="@+id/jeollabukdo_pin6"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="212dp"
+        app:layout_constraintLeft_toLeftOf="@id/map6"
+        app:layout_constraintTop_toTopOf="@id/map6"></ImageView>
+
+    <ImageView
+        android:id="@+id/jeollabukdo_pin13"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="204dp"
+        android:layout_marginTop="316dp"
+        app:layout_constraintLeft_toLeftOf="@id/map6"
+        app:layout_constraintTop_toTopOf="@id/map6"></ImageView>
+
+    <ImageView
+        android:id="@+id/jeollabukdo_pin11"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="228dp"
+        android:layout_marginTop="268dp"
+        app:layout_constraintLeft_toLeftOf="@id/map6"
+        app:layout_constraintTop_toTopOf="@id/map6"></ImageView>
+
+    <TextView
+        android:id="@+id/jeollabukdo_text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="232dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="김제시"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map6"
+        app:layout_constraintTop_toTopOf="@id/map6"></TextView>
+
+    <ImageView
+        android:id="@+id/jeollabukdo_pin10"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="268dp"
+        app:layout_constraintLeft_toLeftOf="@id/map6"
+        app:layout_constraintTop_toTopOf="@id/map6"></ImageView>
+
+    <ImageView
+        android:id="@+id/jeollabukdo_pin3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="232dp"
+        android:layout_marginTop="164dp"
+        app:layout_constraintLeft_toLeftOf="@id/map6"
+        app:layout_constraintTop_toTopOf="@id/map6"></ImageView>
+
+    <ImageView
+        android:id="@+id/jeollabukdo_pin7"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="176dp"
+        android:layout_marginTop="200dp"
+        app:layout_constraintLeft_toLeftOf="@id/map6"
+        app:layout_constraintTop_toTopOf="@id/map6"></ImageView>
+
+    <TextView
+        android:id="@+id/jeollabukdo_text12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="324dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="고창군"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map6"
+        app:layout_constraintTop_toTopOf="@id/map6"></TextView>
+
+    <ImageView
+        android:id="@+id/jeollabukdo_pin12"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="300dp"
+        app:layout_constraintLeft_toLeftOf="@id/map6"
+        app:layout_constraintTop_toTopOf="@id/map6"></ImageView>
+
+    <ImageView
+        android:id="@+id/jeollabukdo_pin1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="176dp"
+        app:layout_constraintLeft_toLeftOf="@id/map6"
+        app:layout_constraintTop_toTopOf="@id/map6"></ImageView>
+
+    <TextView
+        android:id="@+id/jeollabukdo_text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="332dp"
+        android:layout_marginTop="204dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="무주군"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map6"
+        app:layout_constraintTop_toTopOf="@id/map6"></TextView>
+
+    <TextView
+        android:id="@+id/jeollabukdo_text10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="288dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="정읍시"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map6"
+        app:layout_constraintTop_toTopOf="@id/map6"></TextView>
+
+    <TextView
+        android:id="@+id/jeollabukdo_text11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="204dp"
+        android:layout_marginTop="288dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="임실군"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map6"
+        app:layout_constraintTop_toTopOf="@id/map6"></TextView>
+
+    <TextView
+        android:id="@+id/jeollabukdo_text8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="284dp"
+        android:layout_marginTop="280dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="장수군"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map6"
+        app:layout_constraintTop_toTopOf="@id/map6"></TextView>
+
+    <TextView
+        android:id="@+id/jeollabukdo_text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="256dp"
+        android:layout_marginTop="236dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="진안군"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map6"
+        app:layout_constraintTop_toTopOf="@id/map6"></TextView>
+
+    <ImageView
+        android:id="@+id/jeollabukdo_pin8"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="252dp"
+        app:layout_constraintLeft_toLeftOf="@id/map6"
+        app:layout_constraintTop_toTopOf="@id/map6"></ImageView>
+
+    <TextView
+        android:id="@+id/jeollabukdo_text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="188dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="완주군"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map6"
+        app:layout_constraintTop_toTopOf="@id/map6"></TextView>
+
+    <TextView
+        android:id="@+id/jeollabukdo_text9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="268dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="부안군"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map6"
+        app:layout_constraintTop_toTopOf="@id/map6"></TextView>
+
+    <ImageView
+        android:id="@+id/jeollabukdo_pin14"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="288dp"
+        android:layout_marginTop="316dp"
+        app:layout_constraintLeft_toLeftOf="@id/map6"
+        app:layout_constraintTop_toTopOf="@id/map6"></ImageView>
+
+    <Button
+        android:id="@+id/jeollabukdo_map_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="@font/gangwondofont"
+        android:text="전체지도 보기"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/map6"
+        app:layout_constraintTop_toBottomOf="@+id/map6"></Button>
+</androidx.constraintlayout.widget.ConstraintLayout>

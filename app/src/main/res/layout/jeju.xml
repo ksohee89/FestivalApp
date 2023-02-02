@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:id="@+id/map9"
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/jeju"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <TextView
+        android:id="@+id/jeju_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="272dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="서귀포시"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintLeft_toLeftOf="@id/map9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/map9"></TextView>
+
+    <TextView
+        android:id="@+id/jeju_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="164dp"
+        android:layout_marginTop="196dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="제주시"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map9"
+        app:layout_constraintTop_toTopOf="@id/map9"></TextView>
+
+    <ImageView
+        android:id="@+id/jeju_pin1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="196dp"
+        android:layout_marginTop="176dp"
+        app:layout_constraintLeft_toLeftOf="@id/map9"
+        app:layout_constraintTop_toTopOf="@id/map9"></ImageView>
+
+    <ImageView
+        android:id="@+id/jeju_pin2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="216dp"
+        android:layout_marginTop="252dp"
+        app:layout_constraintLeft_toLeftOf="@id/map9"
+        app:layout_constraintTop_toTopOf="@+id/map9"></ImageView>
+
+    <Button
+        android:id="@+id/jeju_map_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="@font/notosans2"
+        android:text="전체지도 보기"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/map9"
+        app:layout_constraintTop_toBottomOf="@+id/map9"></Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

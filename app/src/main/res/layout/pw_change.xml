@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"
+        ></ImageView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="가입되어 있는 이메일을 입력해주세요"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/notosans"
+
+        >
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/pwChange_email"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/notosans"
+        android:padding="10dp"
+        android:background="@drawable/pwedge"
+        android:hint="EMAIL"
+        android:textColor="@color/gray2"
+        android:textColorHint="@color/gray2"
+        android:textSize="12dp"></EditText>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="⦁ 전송된 이메일로 인증을 완료하면 비밀번호 재설정이 가능합니다." />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="⦁ 다른 문의 사항이 있으시면 고객센터(070-6569-4523) 문의 바랍니다." />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <Button
+            android:id="@+id/pwChange"
+            android:layout_marginTop="60dp"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:textColor="@color/white"
+            android:text="비밀번호 재설정"
+            android:layout_marginLeft="25dp"
+            android:backgroundTint="@color/yellow">
+        </Button>
+        <Button
+            android:id="@+id/pwChange_cancel"
+            android:layout_marginTop="60dp"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:text="취소"
+            android:textColor="@color/white"
+            android:layout_marginLeft="25dp"
+            android:backgroundTint="@color/yellow"></Button>
+    </LinearLayout>
+
+</LinearLayout>

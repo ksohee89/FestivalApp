@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/map7"
+        android:layout_width="match_parent"
+        android:layout_height="530dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/gyeongsangnamdo"
+        ></ImageView>
+
+
+    <TextView
+        android:id="@+id/gyeongsangnamdo_text17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="372dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="통영시"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></TextView>
+
+    <ImageView
+        android:id="@+id/gyeongsangnamdo_pin20"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="364dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></ImageView>
+
+    <ImageView
+        android:id="@+id/gyeongsangnamdo_pin10"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="216dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></ImageView>
+
+    <TextView
+        android:id="@+id/gyeongsangnamdo_text15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="372dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="남해군"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></TextView>
+
+    <ImageView
+        android:id="@+id/gyeongsangnamdo_pin15"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="348dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></ImageView>
+
+    <TextView
+        android:id="@+id/gyeongsangnamdo_text3"
+        android:layout_width="52dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="256dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="산청군"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></TextView>
+
+    <ImageView
+        android:id="@+id/gyeongsangnamdo_pin7"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="280dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></ImageView>
+
+    <ImageView
+        android:id="@+id/gyeongsangnamdo_pin13"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="248dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></ImageView>
+
+    <ImageView
+        android:id="@+id/gyeongsangnamdo_pin16"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="168dp"
+        android:layout_marginTop="312dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></ImageView>
+
+    <ImageView
+        android:id="@+id/gyeongsangnamdo_pin19"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="308dp"
+        android:layout_marginTop="264dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></ImageView>
+
+    <ImageView
+        android:id="@+id/gyeongsangnamdo_pin14"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="296dp"
+        android:layout_marginTop="204dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></ImageView>
+
+    <TextView
+        android:id="@+id/gyeongsangnamdo_text13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="248dp"
+        android:layout_marginTop="276dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="김해시"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></TextView>
+
+    <ImageView
+        android:id="@+id/gyeongsangnamdo_pin18"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="232dp"
+        android:layout_marginTop="332dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></ImageView>
+
+    <TextView
+        android:id="@+id/gyeongsangnamdo_text16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="148dp"
+        android:layout_marginTop="340dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="고성군"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></TextView>
+
+    <TextView
+        android:id="@+id/gyeongsangnamdo_text18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="216dp"
+        android:layout_marginTop="356dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="거제시"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></TextView>
+
+    <TextView
+        android:id="@+id/gyeongsangnamdo_text12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="204dp"
+        android:layout_marginTop="304dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="창원시"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></TextView>
+
+    <TextView
+        android:id="@+id/gyeongsangnamdo_text20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="328dp"
+        android:layout_marginTop="204dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="울산광역시"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></TextView>
+
+    <TextView
+        android:id="@+id/gyeongsangnamdo_text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="248dp"
+        android:layout_marginTop="220dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="밀양시"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></TextView>
+
+    <TextView
+        android:id="@+id/gyeongsangnamdo_text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="312dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="하동군"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></TextView>
+
+    <TextView
+        android:id="@+id/gyeongsangnamdo_text10"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="244dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="의령군"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></TextView>
+
+    <TextView
+        android:id="@+id/gyeongsangnamdo_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="208dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="함양군"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/map7"></TextView>
+
+    <ImageView
+        android:id="@+id/gyeongsangnamdo_pin8"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="304dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></ImageView>
+
+    <TextView
+        android:id="@+id/gyeongsangnamdo_text9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="292dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="진주시"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></TextView>
+
+    <ImageView
+        android:id="@+id/gyeongsangnamdo_pin5"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="224dp"
+        android:layout_marginTop="188dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></ImageView>
+
+    <ImageView
+        android:id="@+id/gyeongsangnamdo_pin4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="176dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></ImageView>
+
+    <ImageView
+        android:id="@+id/gyeongsangnamdo_pin1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="180dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></ImageView>
+
+    <ImageView
+        android:id="@+id/gyeongsangnamdo_pin12"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="216dp"
+        android:layout_marginTop="280dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></ImageView>
+
+    <TextView
+        android:id="@+id/gyeongsangnamdo_text11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="176dp"
+        android:layout_marginTop="272dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="함안군"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></TextView>
+
+    <TextView
+        android:id="@+id/gyeongsangnamdo_text19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="296dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="부산광역시"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></TextView>
+
+    <ImageView
+        android:id="@+id/gyeongsangnamdo_pin6"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="196dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></ImageView>
+
+    <ImageView
+        android:id="@+id/gyeongsangnamdo_pin11"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="252dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></ImageView>
+
+    <TextView
+        android:id="@+id/gyeongsangnamdo_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="160dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="거창군"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></TextView>
+
+    <ImageView
+        android:id="@+id/gyeongsangnamdo_pin9"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="116dp"
+        android:layout_marginTop="268dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></ImageView>
+
+    <ImageView
+        android:id="@+id/gyeongsangnamdo_pin2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="136dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></ImageView>
+
+    <TextView
+        android:id="@+id/gyeongsangnamdo_text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="204dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="합천군"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></TextView>
+
+    <ImageView
+        android:id="@+id/gyeongsangnamdo_pin3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="232dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></ImageView>
+
+    <TextView
+        android:id="@+id/gyeongsangnamdo_text14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="288dp"
+        android:layout_marginTop="232dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="양산시"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></TextView>
+
+
+    <TextView
+        android:id="@+id/gyeongsangnamdo_text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="196dp"
+        android:layout_marginTop="216dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="창녕군"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></TextView>
+
+    <TextView
+        android:id="@+id/gyeongsangnamdo_text8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="328dp"
+        android:fontFamily="@font/gangwondofont"
+        android:text="사천시"
+        android:textColor="#515151"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></TextView>
+
+    <ImageView
+        android:id="@+id/gyeongsangnamdo_pin17"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="192dp"
+        android:layout_marginTop="348dp"
+        app:layout_constraintLeft_toLeftOf="@id/map7"
+        app:layout_constraintTop_toTopOf="@id/map7"></ImageView>
+
+    <Button
+        android:id="@+id/gyeongsangnamdo_map_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="@font/gangwondofont"
+        android:text="전체지도 보기"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/map7"
+        app:layout_constraintTop_toBottomOf="@+id/map7"></Button>
+</androidx.constraintlayout.widget.ConstraintLayout>

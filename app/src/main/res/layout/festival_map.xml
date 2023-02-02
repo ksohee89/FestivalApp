@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/orange"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/backbtn"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/ic_baseline_navigate_before_24" />
+
+        <ImageView
+            android:layout_marginLeft="175dp"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/logo"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="18dp"
+            android:fontFamily="@font/ok"
+            android:text="축  제  로"
+            android:textColor="@color/white"
+            android:textSize="30dp"></TextView>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.naver.maps.map.MapView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+        </com.naver.maps.map.MapView>
+        <ImageView
+            android:id="@+id/noimage"
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+            android:src="@drawable/placeholder"
+            />
+        <ImageView
+            android:id="@+id/findmapbtn"
+            android:background="@drawable/findmap_dox"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:padding="15dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="40dp"
+            android:layout_gravity="bottom|right"
+            android:scaleType="fitCenter"
+            android:src="@drawable/mapdirection" />
+
+        <ImageView
+            android:id="@+id/mylocationbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="47dp"
+            android:layout_marginBottom="130dp"
+            app:srcCompat="@drawable/ic_baseline_gps_fixed_24" />
+
+
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@color/orange"
+        android:orientation="vertical">
+        <LinearLayout
+            android:background="@color/orange"
+            android:layout_width="match_parent"
+            android:layout_height="69dp">
+
+            <ImageView
+                android:layout_marginLeft="223dp"
+                android:layout_width="40dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/logo"></ImageView>
+
+            <TextView
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="축  제  로"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/ok"
+                android:layout_marginLeft="5dp"
+                ></TextView>
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/icon_search"
+                ></ImageView>
+            <EditText
+                android:id="@+id/search1"
+                android:layout_width="292dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:hint="축제명"
+                android:paddingLeft="15dp"
+                android:gravity="center_vertical"
+                android:textSize="16dp"
+                android:background="@drawable/searchview"
+
+                >
+            </EditText>
+            <Button
+                android:id="@+id/search_btn1"
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="@color/orange"
+                android:layout_width="70dp"
+                android:layout_height="43dp"
+                android:layout_marginTop="5dp"
+                android:text="검색"
+                android:textColor="@color/white"
+
+                >
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@drawable/dropshadow" />
+    <FrameLayout
+        android:id="@+id/search_frag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        ></FrameLayout>
+</LinearLayout>

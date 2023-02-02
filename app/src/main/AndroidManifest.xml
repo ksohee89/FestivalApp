@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sample.festival_app">
+    <queries>
+        <package android:name="com.kakao.talk" />
+    </queries>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo6"
+        android:label="축제로"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.festival_app">
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="lvqn512ajr" />
+        <activity
+            android:name="com.sample.festival_app.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="kakaobc1f62e1e2f16be85201be0dd012ac42"
+                    android:host="kakaolink"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.sample.festival_app.MainScreen"></activity>
+        <activity android:name="com.sample.festival_app.festival_info"></activity>
+        <activity android:name="com.sample.festival_app.review"></activity>
+        <activity android:name="com.sample.festival_app.Search"></activity>
+        <activity android:name="com.sample.festival_app.Scheduler"></activity>
+        <activity
+            android:name="com.sample.festival_app.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.sample.festival_app.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.sample.festival_app.ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.sample.festival_app.MyPageActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.sample.festival_app.MyReview"
+            android:exported="false" />
+        <activity android:name="com.sample.festival_app.MyLikeFestival"></activity>
+        <activity android:name="com.sample.festival_app.Likefestival_info"></activity>
+        <activity android:name="com.sample.festival_app.Webview"></activity>
+        <activity android:name="com.sample.festival_app.festival_map"></activity>
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="bc1f62e1e2f16be85201be0dd012ac42"/>
+    </application>
+
+</manifest>

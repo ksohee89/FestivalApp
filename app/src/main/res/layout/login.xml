@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="50dp"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"
+        ></ImageView>
+
+
+
+    <EditText
+        android:id="@+id/login_id"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:hint="이메일(아이디)를 입력해주세요"
+        android:textColor="#000000"
+        android:fontFamily="@font/notosans"
+        android:backgroundTint="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="12dp"></EditText>
+    <EditText
+        android:id="@+id/login_pw"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:fontFamily="@font/notosans"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:hint="비밀번호를 입력해주세요"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:backgroundTint="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="12dp"></EditText>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:id="@+id/login"
+                android:layout_marginTop="60dp"
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:text="로그인"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/yellow">
+            </Button>
+            <Button
+                android:id="@+id/login_cancel"
+                android:layout_marginTop="60dp"
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:textColor="@color/white"
+                android:text="취소"
+                android:layout_marginLeft="25dp"
+                android:backgroundTint="@color/yellow"></Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_marginLeft="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:textColor="@color/black"
+                android:text="축제로 계정이 없으신가요?"
+                android:fontFamily="@font/notosans"
+                >
+            </TextView>
+            <TextView
+                android:id="@+id/login_signup"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="회원가입"
+                android:textSize="12dp"
+                android:fontFamily="@font/notosans"
+                android:textColor="@color/white"
+                ></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:textColor="@color/black"
+                android:text="비밀번호를 잊으셨나요?"
+                android:fontFamily="@font/notosans"
+                >
+            </TextView>
+            <TextView
+                android:id="@+id/login_searchPw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="비밀번호 변경"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="12dp"
+                android:layout_marginLeft="80dp"
+                android:fontFamily="@font/notosans"
+                >
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
